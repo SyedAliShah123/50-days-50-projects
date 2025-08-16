@@ -165,3 +165,21 @@ body{
   background: #000;
   color: #fff
 }
+
+.btn{
+  padding: 1vw 2vw;
+  background: #000;
+  color: #fff;
+}
+.btn:active{
+  background: yellow;
+}
+.btn:focus{
+  background: navy;
+
+}
+.btn:disabled{
+  background: transparent;
+  border: 1px solid #000;
+  color: #000;
+}
